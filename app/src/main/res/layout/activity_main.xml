@@ -45,7 +45,7 @@
         app:leftTextColor1="@android:color/white"
         app:leftTextSize1="15sp"
         app:leftTitle1="左1"
-        app:leftTitle2="返回"
+        app:leftTitle2="左2"
         app:middleTextColor="@color/colorAccent"
         app:middleTextSize="20sp"
         app:middleTitle="样式三"
