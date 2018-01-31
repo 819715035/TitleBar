@@ -15,45 +15,45 @@ public class MainActivity extends AppCompatActivity {
         final CustomTitleBar titleBar4 = findViewById(R.id.titleBar4);
         titleBar4.setTitleClickListener(new CustomTitleBar.TitleClickListener() {
             @Override
-            public void onLeftClick() {
-                Toast.makeText(MainActivity.this,"leftclick",0).show();
+            public void onLeftClick1() {
+                Toast.makeText(MainActivity.this,"onLeftClick1",0).show();
             }
 
             @Override
-            public void onRightClick() {
-                Toast.makeText(MainActivity.this,"onRightClick",0).show();
+            public void onRightClick1() {
+                Toast.makeText(MainActivity.this,"onRightClick1",0).show();
             }
 
             @Override
-            public void onRightButton1Click() {
-                Toast.makeText(MainActivity.this,"onRightButton1Click",0).show();
+            public void onLeftClick2() {
+                Toast.makeText(MainActivity.this,"onLeftClick2",0).show();
             }
 
             @Override
-            public void onRightButton2Click() {
-                Toast.makeText(MainActivity.this,"onRightButton2Click",0).show();
+            public void onRightClick2() {
+                Toast.makeText(MainActivity.this,"onRightClick2",0).show();
             }
         });
         final CustomTitleBar titleBar2 = findViewById(R.id.titleBar2);
         titleBar2.setTitleClickListener(new CustomTitleBar.TitleClickListener() {
             @Override
-            public void onLeftClick() {
-                Toast.makeText(MainActivity.this,"leftclick",0).show();
+            public void onLeftClick1() {
+                Toast.makeText(MainActivity.this,"onLeftClick1",0).show();
             }
 
             @Override
-            public void onRightClick() {
-                Toast.makeText(MainActivity.this,"onRightClick",0).show();
+            public void onRightClick1() {
+                Toast.makeText(MainActivity.this,"onRightClick1",0).show();
             }
 
             @Override
-            public void onRightButton1Click() {
-                Toast.makeText(MainActivity.this,"onRightButton1Click",0).show();
+            public void onLeftClick2() {
+                Toast.makeText(MainActivity.this,"onLeftClick2",0).show();
             }
 
             @Override
-            public void onRightButton2Click() {
-                Toast.makeText(MainActivity.this,"onRightButton2Click",0).show();
+            public void onRightClick2() {
+                Toast.makeText(MainActivity.this,"onRightClick2",0).show();
             }
         });
     }

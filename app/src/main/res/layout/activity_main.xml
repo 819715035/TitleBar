@@ -10,14 +10,14 @@
     <com.lanjian.titlebar.widget.CustomTitleBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:leftTextColor="@android:color/white"
-        app:leftTextSize="15sp"
-        app:leftTitle="返回"
+        app:leftTextColor1="@android:color/white"
+        app:leftTextSize1="15sp"
+        app:leftTitle1="返回"
         app:middleTextColor="@color/colorAccent"
         app:middleTextSize="20sp"
         app:middleTitle="样式一"
-        app:rightTextColor="@android:color/white"
-        app:rightTitle="确定"
+        app:rightTextColor2="@android:color/white"
+        app:rightTitle2="确定"
         />
 
     <com.lanjian.titlebar.widget.CustomTitleBar
@@ -25,12 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        app:leftImage="@mipmap/tbar_return_white"
-        app:leftTextColor="@android:color/white"
+        app:leftTextColor1="@android:color/white"
+        app:leftTitle1="左一"
+        app:leftTextColor2="@android:color/white"
+        app:leftTitle2="左2"
         app:middleTextColor="@color/colorAccent"
         app:middleTextSize="20sp"
         app:middleTitle="样式二"
-        app:rightImage="@mipmap/home_video_complete" />
+        app:rightImage2="@mipmap/home_video_complete" />
 
 
     <com.lanjian.titlebar.widget.CustomTitleBar
@@ -39,16 +41,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:clipToPadding="true"
-        app:leftImage="@mipmap/tbar_return_white"
-        app:leftTextColor="@android:color/white"
-        app:leftTextSize="15sp"
-        app:leftTitle="返回"
+        app:leftImage1="@mipmap/tbar_return_white"
+        app:leftTextColor1="@android:color/white"
+        app:leftTextSize1="15sp"
+        app:leftTitle1="左1"
+        app:leftTitle2="返回"
         app:middleTextColor="@color/colorAccent"
         app:middleTextSize="20sp"
         app:middleTitle="样式三"
-        app:rightImage="@mipmap/home_video_complete"
-        app:rightTextColor="@android:color/white"
-        app:rightTitle="确定" />
+        app:rightImage1="@mipmap/home_video_complete"
+        app:rightTextColor1="@android:color/white"
+        app:rightTitle2="确定" />
 
     <com.lanjian.titlebar.widget.CustomTitleBar
         android:id="@+id/titleBar4"
@@ -56,15 +59,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:clipToPadding="true"
-        app:leftImage="@mipmap/tbar_return_white"
-        app:leftTextColor="@android:color/white"
-        app:leftTextSize="15sp"
-        app:leftTitle="返回"
+        app:leftImage1="@mipmap/tbar_return_white"
+        app:leftTextColor1="@android:color/white"
+        app:leftTextSize1="15sp"
+        app:leftTitle1="左1"
+        app:leftImage2="@mipmap/tbar_return_white"
+        app:leftTextColor2="@android:color/white"
+        app:leftTextSize2="15sp"
+        app:leftTitle2="返回"
         app:middleTextColor="@color/colorAccent"
         app:middleTextSize="20sp"
         app:middleTitle="样式四"
-        app:rightImage="@mipmap/home_video_complete"
+        app:rightImage1="@mipmap/home_video_complete"
         app:rightImage2="@mipmap/resume_rerecording"
-        app:rightTextColor="@android:color/white" />
+        app:rightTextColor1="@android:color/white" />
 
 </LinearLayout>
